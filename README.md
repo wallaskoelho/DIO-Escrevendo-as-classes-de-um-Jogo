@@ -1,5 +1,7 @@
 # 3️⃣ Escrevendo as classes de um Jogo
 
+Desafio de codigo,  Bootcamp Potência Tech iFood - Programação do Zero
+
 **O Que deve ser utilizado**
 
 - Variáveis
@@ -23,17 +25,17 @@ além disso, deve ter um método chamado atacar que deve atender os seguientes r
 - aonde o {tipo} deve ser concatenando o tipo que está na propriedade da classe
 - e no {ataque} deve seguir uma descrição diferente conforme o tipo, seguindo a tabela abaixo:
 
-se mago -> no ataque exibir (usou magia)
-se guerreiro -> no ataque exibir (usou espada)
-se monge -> no ataque exibir (usou artes marciais)
-se ninja -> no ataque exibir (usou shuriken)
+- se mago -> no ataque exibir (usou magia)
+- se guerreiro -> no ataque exibir (usou espada)
+- se monge -> no ataque exibir (usou artes marciais)
+- se ninja -> no ataque exibir (usou shuriken)
 
 ## Saída
 
 Ao final deve se exibir uma mensagem:
 
 - "o {tipo} atacou usando {ataque}"
-  ex: mago atacou usando magia
+  - ex: mago atacou usando magia
   guerreiro atacou usando espada
  
 
