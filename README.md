@@ -35,7 +35,7 @@ além disso, deve ter um método chamado atacar que deve atender os seguientes r
 Ao final deve se exibir uma mensagem:
 
 - "o {tipo} atacou usando {ataque}"
-**ex:**
+- **ex:**
 - mago atacou usando magia
 - guerreiro atacou usando espada
  
