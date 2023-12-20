@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #8B008B;
+  --secondary-color: #87CEEB;
+  --tertiary-color: #F5DEB3;
+  --fourth-color: #FFFfff;
+}
+
+#estrutura {
+  display: grid;
+  grid-template-columns: 160px 3fr 1fr;
+  grid-template-areas: "header header header" "sidnav content ads" "footer footer footer";
+}
+
+#header {
+  grid-area: header;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+#header a {
+  color: var(--fourth-color);
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+#header ul {
+  display: flex;
+  list-style-type: none;
+}
+#header ul li {
+  gap: 1rem;
+}
+#header ul li a {
+  color: var(--fourth-color);
+  gap: 1 rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#sidnav {
+  grid-area: sidnav;
+  background-color: var(--secondary-color);
+}
+
+#content {
+  grid-area: content;
+  height: calc(100vh - 140px);
+  background-color: var(--fourth-color);
+}
+
+#ads {
+  grid-area: ads;
+  background-color: var(--tertiary-color);
+}
+
+#footer {
+  grid-area: footer;
+  background-color: var(--primary-color);
+  height: 70px;
+  text-align: center;
+  color: var(--fourth-color);
+  padding: 1rem;
+}/*# sourceMappingURL=style.css.map */
