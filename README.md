@@ -1,6 +1,6 @@
 # 3️⃣ Escrevendo as classes de um Jogo
 
-Desafio de codigo,  Bootcamp Potência Tech iFood - Programação do Zero
+Desafio de codigo Felipão da DIO,  Bootcamp Potência Tech iFood - Programação do Zero
 
 **O Que deve ser utilizado**
 
